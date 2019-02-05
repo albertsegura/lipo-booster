@@ -187,14 +187,14 @@
 </layers>
 <schematic>
 <libraries>
-<library name="SparkFun-Aesthetics">
+<library name="SparkFun-Aesthetics" urn="urn:adsk.eagle:library:507">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 In this library you'll find non-functional items- supply symbols, logos, notations, frame blocks, etc.&lt;br&gt;&lt;br&gt;
 We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
 &lt;br&gt;&lt;br&gt;
 &lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="OSHW-LOGO-S">
+<package name="OSHW-LOGO-S" urn="urn:adsk.eagle:footprint:37013/1" library_version="1">
 <description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Small - Silkscreen&lt;/h3&gt;
 &lt;p&gt;Silkscreen logo for open-source hardware designs.&lt;/p&gt;
 &lt;p&gt;Devices using:
@@ -235,7 +235,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="0.1794" y="-0.4331"/>
 </polygon>
 </package>
-<package name="OSHW-LOGO-S_COPPER">
+<package name="OSHW-LOGO-S_COPPER" urn="urn:adsk.eagle:footprint:37008/1" library_version="1">
 <description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Small - Top Copper&lt;/h3&gt;
 &lt;p&gt;Exposed copper logo for open-source hardware designs.&lt;/p&gt;
 &lt;p&gt;Devices using:
@@ -276,7 +276,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="0.1794" y="-0.4331"/>
 </polygon>
 </package>
-<package name="OSHW-LOGO-M_COPPER">
+<package name="OSHW-LOGO-M_COPPER" urn="urn:adsk.eagle:footprint:37009/1" library_version="1">
 <description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Medium - Top Copper&lt;/h3&gt;
 &lt;p&gt;Exposed copper logo for open-source hardware designs.&lt;/p&gt;
 &lt;p&gt;Devices using:
@@ -317,7 +317,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="0.299" y="-0.7218"/>
 </polygon>
 </package>
-<package name="OSHW-LOGO-L_COPPER">
+<package name="OSHW-LOGO-L_COPPER" urn="urn:adsk.eagle:footprint:37010/1" library_version="1">
 <description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Large - Top Copper&lt;/h3&gt;
 &lt;p&gt;Exposed copper logo for open-source hardware designs.&lt;/p&gt;
 &lt;p&gt;Devices using:
@@ -358,7 +358,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="0.4186" y="-1.0105"/>
 </polygon>
 </package>
-<package name="OSHW-LOGO-L">
+<package name="OSHW-LOGO-L" urn="urn:adsk.eagle:footprint:37011/1" library_version="1">
 <description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Large - Silkscreen&lt;/h3&gt;
 &lt;p&gt;Silkscreen logo for open-source hardware designs.&lt;/p&gt;
 &lt;p&gt;Devices using:
@@ -399,7 +399,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="0.4186" y="-1.0105"/>
 </polygon>
 </package>
-<package name="OSHW-LOGO-M">
+<package name="OSHW-LOGO-M" urn="urn:adsk.eagle:footprint:37012/1" library_version="1">
 <description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Medium - Silkscreen&lt;/h3&gt;
 &lt;p&gt;Silkscreen logo for open-source hardware designs.&lt;/p&gt;
 &lt;p&gt;Devices using:
@@ -440,7 +440,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="0.299" y="-0.7218"/>
 </polygon>
 </package>
-<package name="OSHW-LOGO-MINI">
+<package name="OSHW-LOGO-MINI" urn="urn:adsk.eagle:footprint:37014/1" library_version="1">
 <description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Mini - Silkscreen&lt;/h3&gt;
 &lt;p&gt;Silkscreen logo for open-source hardware designs.&lt;/p&gt;
 &lt;p&gt;Devices using:
@@ -638,8 +638,73 @@ We've spent an enormous amount of time creating and checking these footprints an
 </polygon>
 </package>
 </packages>
+<packages3d>
+<package3d name="OSHW-LOGO-S" urn="urn:adsk.eagle:package:37099/1" type="box" library_version="1">
+<description>Open-Source Hardware (OSHW) Logo - Small - Silkscreen
+Silkscreen logo for open-source hardware designs.
+Devices using:
+OSHW_LOGO</description>
+<packageinstances>
+<packageinstance name="OSHW-LOGO-S"/>
+</packageinstances>
+</package3d>
+<package3d name="OSHW-LOGO-S_COPPER" urn="urn:adsk.eagle:package:37100/1" type="box" library_version="1">
+<description>Open-Source Hardware (OSHW) Logo - Small - Top Copper
+Exposed copper logo for open-source hardware designs.
+Devices using:
+OSHW_LOGO</description>
+<packageinstances>
+<packageinstance name="OSHW-LOGO-S_COPPER"/>
+</packageinstances>
+</package3d>
+<package3d name="OSHW-LOGO-M_COPPER" urn="urn:adsk.eagle:package:37119/1" type="box" library_version="1">
+<description>Open-Source Hardware (OSHW) Logo - Medium - Top Copper
+Exposed copper logo for open-source hardware designs.
+Devices using:
+OSHW_LOGO</description>
+<packageinstances>
+<packageinstance name="OSHW-LOGO-M_COPPER"/>
+</packageinstances>
+</package3d>
+<package3d name="OSHW-LOGO-L_COPPER" urn="urn:adsk.eagle:package:37117/1" type="box" library_version="1">
+<description>Open-Source Hardware (OSHW) Logo - Large - Top Copper
+Exposed copper logo for open-source hardware designs.
+Devices using:
+OSHW_LOGO</description>
+<packageinstances>
+<packageinstance name="OSHW-LOGO-L_COPPER"/>
+</packageinstances>
+</package3d>
+<package3d name="OSHW-LOGO-L" urn="urn:adsk.eagle:package:37097/1" type="box" library_version="1">
+<description>Open-Source Hardware (OSHW) Logo - Large - Silkscreen
+Silkscreen logo for open-source hardware designs.
+Devices using:
+OSHW_LOGO</description>
+<packageinstances>
+<packageinstance name="OSHW-LOGO-L"/>
+</packageinstances>
+</package3d>
+<package3d name="OSHW-LOGO-M" urn="urn:adsk.eagle:package:37126/1" type="box" library_version="1">
+<description>Open-Source Hardware (OSHW) Logo - Medium - Silkscreen
+Silkscreen logo for open-source hardware designs.
+Devices using:
+OSHW_LOGO</description>
+<packageinstances>
+<packageinstance name="OSHW-LOGO-M"/>
+</packageinstances>
+</package3d>
+<package3d name="OSHW-LOGO-MINI" urn="urn:adsk.eagle:package:37101/1" type="box" library_version="1">
+<description>Open-Source Hardware (OSHW) Logo - Mini - Silkscreen
+Silkscreen logo for open-source hardware designs.
+Devices using:
+OSHW_LOGO</description>
+<packageinstances>
+<packageinstance name="OSHW-LOGO-MINI"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="OSHW-LOGO">
+<symbol name="OSHW-LOGO" urn="urn:adsk.eagle:symbol:37007/1" library_version="1">
 <description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo&lt;/h3&gt;
 &lt;p&gt; This logo indicates the piece of hardware it is found on incorporates a OSHW license and/or adheres to the definition of open source hardware found here: &lt;a href="http://freedomdefined.org/OSHW"&gt;http://freedomdefined.org/OSHW&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Devices using&lt;ul&gt;&lt;li&gt;OSHW_LOGO&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
@@ -4196,7 +4261,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="0.6834" y="-1.65"/>
 </polygon>
 </symbol>
-<symbol name="FR-A4L">
+<symbol name="FR-A4L" urn="urn:adsk.eagle:symbol:37073/1" library_version="1">
 <description>&lt;h3&gt;Schematic Frame - A4L - European Format&lt;/h3&gt;
 &lt;p&gt;Standard A4 size frame in Landscape&lt;/p&gt;
 &lt;p&gt;Devices using:
@@ -4224,7 +4289,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="OSHW-LOGO" prefix="LOGO">
+<deviceset name="OSHW-LOGO" urn="urn:adsk.eagle:component:37171/1" prefix="LOGO" library_version="1">
 <description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo&lt;/h3&gt;
 &lt;p&gt; This logo indicates the piece of hardware it is found on incorporates a OSHW license and/or adheres to the definition of open source hardware found here: &lt;a href="http://freedomdefined.org/OSHW"&gt;http://freedomdefined.org/OSHW&lt;/a&gt;&lt;/p&gt;</description>
 <gates>
@@ -4232,43 +4297,64 @@ We've spent an enormous amount of time creating and checking these footprints an
 </gates>
 <devices>
 <device name="S-COPPER" package="OSHW-LOGO-S_COPPER">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37100/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 <device name="M-COPPER" package="OSHW-LOGO-M_COPPER">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37119/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 <device name="L-COPPER" package="OSHW-LOGO-L_COPPER">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37117/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 <device name="L" package="OSHW-LOGO-L">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37097/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 <device name="M" package="OSHW-LOGO-M">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37126/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 <device name="S" package="OSHW-LOGO-S">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37099/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 <device name="MINI" package="OSHW-LOGO-MINI">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37101/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="FRAME-A4L" prefix="FRAME">
+<deviceset name="FRAME-A4L" urn="urn:adsk.eagle:component:37152/1" prefix="FRAME" library_version="1">
 <description>&lt;h3&gt;Schematic Frame - A4L - European Format&lt;/h3&gt;
 &lt;p&gt;Standard A4 size frame in Landscape&lt;/p&gt;</description>
 <gates>
@@ -4310,7 +4396,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Connectors">
+<library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">
 <description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
 This library contains electrically-functional connectors. 
 &lt;br&gt;
@@ -4325,7 +4411,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="1X08">
+<package name="1X08" urn="urn:adsk.eagle:footprint:37760/1" library_version="1">
 <description>&lt;h3&gt;Plated Through Hole -8 Pin&lt;/h3&gt;
 &lt;p&gt;Specifications:
 &lt;ul&gt;&lt;li&gt;Pin count:8&lt;/li&gt;
@@ -4403,7 +4489,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
-<package name="1X08_LOCK">
+<package name="1X08_LOCK" urn="urn:adsk.eagle:footprint:37761/1" library_version="1">
 <description>&lt;h3&gt;Plated Through Hole -8 Pin Locking Footprint&lt;/h3&gt;
 Holes are offset 0.005", to hold pins in place during soldering. 
 &lt;p&gt;Specifications:
@@ -4482,7 +4568,7 @@ Holes are offset 0.005", to hold pins in place during soldering.
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
-<package name="1X08_LOCK_LONGPADS">
+<package name="1X08_LOCK_LONGPADS" urn="urn:adsk.eagle:footprint:37762/1" library_version="1">
 <description>&lt;h3&gt;Plated Through Hole -8 Pin Locking Footprint with Long Pads&lt;/h3&gt;
 Holes are offset 0.005", to hold pins in place during soldering. 
 &lt;p&gt;Specifications:
@@ -4528,7 +4614,7 @@ Holes are offset 0.005", to hold pins in place during soldering.
 <text x="-0.889" y="1.778" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.143" y="-2.286" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
-<package name="1X08_LONGPADS">
+<package name="1X08_LONGPADS" urn="urn:adsk.eagle:footprint:37763/1" library_version="1">
 <description>&lt;h3&gt;Plated Through Hole -8 Pin Long Pads&lt;/h3&gt;
 &lt;p&gt;Specifications:
 &lt;ul&gt;&lt;li&gt;Pin count:8&lt;/li&gt;
@@ -4558,7 +4644,7 @@ Holes are offset 0.005", to hold pins in place during soldering.
 <text x="-1.143" y="2.159" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.016" y="-2.794" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
-<package name="SCREWTERMINAL-3.5MM-8">
+<package name="SCREWTERMINAL-3.5MM-8" urn="urn:adsk.eagle:footprint:37764/1" library_version="1">
 <description>&lt;h3&gt;Screw Terminal  3.5mm Pitch -8 Pin PTH&lt;/h3&gt;
 &lt;p&gt;Specifications:
 &lt;ul&gt;&lt;li&gt;Pin count: 8&lt;/li&gt;
@@ -4581,6 +4667,8 @@ Holes are offset 0.005", to hold pins in place during soldering.
 <wire x1="26.25" y1="3.15" x2="26.75" y2="3.15" width="0.2032" layer="51"/>
 <wire x1="26.75" y1="3.15" x2="26.75" y2="2.15" width="0.2032" layer="51"/>
 <wire x1="26.75" y1="2.15" x2="26.25" y2="2.15" width="0.2032" layer="51"/>
+<wire x1="1.016" y1="-1.524" x2="-0.889" y2="-1.524" width="0.2032" layer="21"/>
+<wire x1="-0.889" y1="-1.524" x2="1.016" y2="-1.524" width="0.2032" layer="22"/>
 <pad name="1" x="0" y="0" drill="1.2" diameter="2.032"/>
 <pad name="2" x="3.5" y="0" drill="1.2" diameter="2.032"/>
 <pad name="3" x="7" y="0" drill="1.2" diameter="2.032"/>
@@ -4591,10 +4679,8 @@ Holes are offset 0.005", to hold pins in place during soldering.
 <pad name="8" x="24.5" y="0" drill="1.2" diameter="2.032"/>
 <text x="11.049" y="2.286" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="10.795" y="1.397" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-<wire x1="1.016" y1="-1.524" x2="-0.889" y2="-1.524" width="0.2032" layer="21"/>
-<wire x1="-0.889" y1="-1.524" x2="1.016" y2="-1.524" width="0.2032" layer="22"/>
 </package>
-<package name="1X08_SMD">
+<package name="1X08_SMD" urn="urn:adsk.eagle:footprint:37765/1" library_version="1">
 <description>&lt;h3&gt;SMD -8 Pin Vertical Female&lt;/h3&gt;
 &lt;p&gt;Specifications:
 &lt;ul&gt;&lt;li&gt;Pin count:8&lt;/li&gt;
@@ -4631,7 +4717,7 @@ Holes are offset 0.005", to hold pins in place during soldering.
 <text x="-18.542" y="2.921" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-18.542" y="-3.556" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
-<package name="1X08_SMD_ALT">
+<package name="1X08_SMD_ALT" urn="urn:adsk.eagle:footprint:37766/1" library_version="1">
 <description>&lt;h3&gt;SMD -8 Pin Vertical Female&lt;/h3&gt;
 Alternate pin configuration
 &lt;p&gt;Specifications:
@@ -4669,7 +4755,7 @@ Alternate pin configuration
 <text x="-18.796" y="2.921" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-18.923" y="-3.556" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
-<package name="1X08_SMD_COMBINED">
+<package name="1X08_SMD_COMBINED" urn="urn:adsk.eagle:footprint:37767/1" library_version="1">
 <description>&lt;h3&gt;SMD -8 Pin Vertical Female&lt;/h3&gt;
 Combined footprint configuration
 &lt;p&gt;Specifications:
@@ -4727,7 +4813,7 @@ Combined footprint configuration
 <text x="-0.381" y="3.048" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-0.508" y="-3.556" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
-<package name="BM08B-SRSS-TB">
+<package name="BM08B-SRSS-TB" urn="urn:adsk.eagle:footprint:37768/1" library_version="1">
 <description>&lt;h3&gt;JST Vertical Crimp Connect&lt;/h3&gt;
 &lt;p&gt;Specifications:
 &lt;ul&gt;&lt;li&gt;Pin count: 8&lt;/li&gt;
@@ -4760,7 +4846,7 @@ Combined footprint configuration
 <text x="-1.397" y="2.159" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.651" y="1.27" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
-<package name="1X08_SMD_MALE">
+<package name="1X08_SMD_MALE" urn="urn:adsk.eagle:footprint:37769/1" library_version="1">
 <description>&lt;h3&gt;SMD -8 Pin Vertical Male&lt;/h3&gt;
 &lt;p&gt;Specifications:
 &lt;ul&gt;&lt;li&gt;Pin count:8&lt;/li&gt;
@@ -4774,24 +4860,6 @@ Combined footprint configuration
 <wire x1="-1.27" y1="-1.25" x2="19.05" y2="-1.25" width="0.127" layer="51"/>
 <wire x1="19.05" y1="-1.25" x2="19.05" y2="1.25" width="0.127" layer="51"/>
 <wire x1="19.05" y1="1.25" x2="-1.27" y2="1.25" width="0.127" layer="51"/>
-<circle x="0" y="0" radius="0.64" width="0.127" layer="51"/>
-<circle x="2.54" y="0" radius="0.64" width="0.127" layer="51"/>
-<circle x="5.08" y="0" radius="0.64" width="0.127" layer="51"/>
-<circle x="7.62" y="0" radius="0.64" width="0.127" layer="51"/>
-<circle x="10.16" y="0" radius="0.64" width="0.127" layer="51"/>
-<circle x="12.7" y="0" radius="0.64" width="0.127" layer="51"/>
-<rectangle x1="-0.32" y1="0" x2="0.32" y2="2.75" layer="51"/>
-<rectangle x1="4.76" y1="0" x2="5.4" y2="2.75" layer="51"/>
-<rectangle x1="9.84" y1="0" x2="10.48" y2="2.75" layer="51"/>
-<rectangle x1="2.22" y1="-2.75" x2="2.86" y2="0" layer="51" rot="R180"/>
-<rectangle x1="7.3" y1="-2.75" x2="7.94" y2="0" layer="51" rot="R180"/>
-<rectangle x1="12.38" y1="-2.75" x2="13.02" y2="0" layer="51" rot="R180"/>
-<smd name="1" x="0" y="0" dx="1.02" dy="6" layer="1"/>
-<smd name="2" x="2.54" y="0" dx="1.02" dy="6" layer="1"/>
-<smd name="3" x="5.08" y="0" dx="1.02" dy="6" layer="1"/>
-<smd name="4" x="7.62" y="0" dx="1.02" dy="6" layer="1"/>
-<smd name="5" x="10.16" y="0" dx="1.02" dy="6" layer="1"/>
-<smd name="6" x="12.7" y="0" dx="1.02" dy="6" layer="1"/>
 <wire x1="-1.27" y1="1.25" x2="-1.27" y2="-1.25" width="0.1778" layer="21"/>
 <wire x1="-1.27" y1="-1.25" x2="-0.635" y2="-1.25" width="0.1778" layer="21"/>
 <wire x1="-1.27" y1="1.25" x2="-0.635" y2="1.25" width="0.1778" layer="21"/>
@@ -4806,22 +4874,40 @@ Combined footprint configuration
 <wire x1="9.398" y1="-1.25" x2="8.382" y2="-1.25" width="0.1778" layer="21"/>
 <wire x1="11.938" y1="-1.25" x2="10.922" y2="-1.25" width="0.1778" layer="21"/>
 <wire x1="19.05" y1="-1.25" x2="19.05" y2="1.25" width="0.1778" layer="21"/>
-<circle x="15.24" y="0" radius="0.64" width="0.127" layer="51"/>
-<circle x="17.78" y="0" radius="0.64" width="0.127" layer="51"/>
-<rectangle x1="14.92" y1="0" x2="15.56" y2="2.75" layer="51"/>
-<rectangle x1="17.46" y1="-2.75" x2="18.1" y2="0" layer="51" rot="R180"/>
-<smd name="7" x="15.24" y="0" dx="1.02" dy="6" layer="1"/>
-<smd name="8" x="17.78" y="0" dx="1.02" dy="6" layer="1"/>
 <wire x1="16.002" y1="1.25" x2="17.018" y2="1.25" width="0.1778" layer="21"/>
 <wire x1="17.018" y1="-1.25" x2="16.002" y2="-1.25" width="0.1778" layer="21"/>
 <wire x1="19.05" y1="-1.25" x2="18.415" y2="-1.25" width="0.1778" layer="21"/>
 <wire x1="19.05" y1="1.25" x2="18.415" y2="1.25" width="0.1778" layer="21"/>
 <wire x1="13.462" y1="1.25" x2="14.478" y2="1.25" width="0.1778" layer="21"/>
 <wire x1="14.478" y1="-1.25" x2="13.462" y2="-1.25" width="0.1778" layer="21"/>
+<circle x="0" y="0" radius="0.64" width="0.127" layer="51"/>
+<circle x="2.54" y="0" radius="0.64" width="0.127" layer="51"/>
+<circle x="5.08" y="0" radius="0.64" width="0.127" layer="51"/>
+<circle x="7.62" y="0" radius="0.64" width="0.127" layer="51"/>
+<circle x="10.16" y="0" radius="0.64" width="0.127" layer="51"/>
+<circle x="12.7" y="0" radius="0.64" width="0.127" layer="51"/>
+<circle x="15.24" y="0" radius="0.64" width="0.127" layer="51"/>
+<circle x="17.78" y="0" radius="0.64" width="0.127" layer="51"/>
+<rectangle x1="-0.32" y1="0" x2="0.32" y2="2.75" layer="51"/>
+<rectangle x1="4.76" y1="0" x2="5.4" y2="2.75" layer="51"/>
+<rectangle x1="9.84" y1="0" x2="10.48" y2="2.75" layer="51"/>
+<rectangle x1="2.22" y1="-2.75" x2="2.86" y2="0" layer="51" rot="R180"/>
+<rectangle x1="7.3" y1="-2.75" x2="7.94" y2="0" layer="51" rot="R180"/>
+<rectangle x1="12.38" y1="-2.75" x2="13.02" y2="0" layer="51" rot="R180"/>
+<rectangle x1="14.92" y1="0" x2="15.56" y2="2.75" layer="51"/>
+<rectangle x1="17.46" y1="-2.75" x2="18.1" y2="0" layer="51" rot="R180"/>
+<smd name="1" x="0" y="0" dx="1.02" dy="6" layer="1"/>
+<smd name="2" x="2.54" y="0" dx="1.02" dy="6" layer="1"/>
+<smd name="3" x="5.08" y="0" dx="1.02" dy="6" layer="1"/>
+<smd name="4" x="7.62" y="0" dx="1.02" dy="6" layer="1"/>
+<smd name="5" x="10.16" y="0" dx="1.02" dy="6" layer="1"/>
+<smd name="6" x="12.7" y="0" dx="1.02" dy="6" layer="1"/>
+<smd name="7" x="15.24" y="0" dx="1.02" dy="6" layer="1"/>
+<smd name="8" x="17.78" y="0" dx="1.02" dy="6" layer="1"/>
 <text x="-0.508" y="3.302" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-0.635" y="-3.937" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
-<package name="1X08_NO_SILK">
+<package name="1X08_NO_SILK" urn="urn:adsk.eagle:footprint:37770/1" library_version="1">
 <description>&lt;h3&gt;Plated Through Hole -8 Pin No Silk&lt;/h3&gt;
 &lt;p&gt;Specifications:
 &lt;ul&gt;&lt;li&gt;Pin count:8&lt;/li&gt;
@@ -4849,7 +4935,7 @@ Combined footprint configuration
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
-<package name="1X08_LOCK_NO_SILK">
+<package name="1X08_LOCK_NO_SILK" urn="urn:adsk.eagle:footprint:37771/1" library_version="1">
 <description>&lt;h3&gt;Plated Through Hole -8 Pin Locking Footprint No Silk&lt;/h3&gt;
 Holes are offset 0.005", to hold pins in place during soldering. 
 &lt;p&gt;Specifications:
@@ -4878,7 +4964,7 @@ Holes are offset 0.005", to hold pins in place during soldering.
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
-<package name="1X08_FEMALE_LOCK">
+<package name="1X08_FEMALE_LOCK" urn="urn:adsk.eagle:footprint:37772/1" library_version="1">
 <description>&lt;h3&gt;Plated Through Hole -8 Pin Locking Female Headers&lt;/h3&gt;
 Holes are offset 0.005" to hold pins in place during soldering. 
 &lt;p&gt;Specifications:
@@ -4899,22 +4985,206 @@ Holes are offset 0.005" to hold pins in place during soldering.
 <pad name="4" x="7.62" y="-0.2286" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="5" x="10.16" y="0.2286" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="6" x="12.7" y="-0.2286" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="7" x="15.24" y="0.2286" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="8" x="17.78" y="-0.2286" drill="1.016" diameter="1.8796" rot="R90"/>
 <rectangle x1="-0.3175" y1="-0.1905" x2="0.3175" y2="0.1905" layer="51"/>
 <rectangle x1="2.2225" y1="-0.1905" x2="2.8575" y2="0.1905" layer="51"/>
 <rectangle x1="4.7625" y1="-0.1905" x2="5.3975" y2="0.1905" layer="51"/>
 <rectangle x1="7.3025" y1="-0.1905" x2="7.9375" y2="0.1905" layer="51"/>
 <rectangle x1="9.8425" y1="-0.1905" x2="10.4775" y2="0.1905" layer="51"/>
 <rectangle x1="12.3825" y1="-0.1905" x2="13.0175" y2="0.1905" layer="51"/>
-<pad name="7" x="15.24" y="0.2286" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="8" x="17.78" y="-0.2286" drill="1.016" diameter="1.8796" rot="R90"/>
 <rectangle x1="14.9225" y1="-0.1905" x2="15.5575" y2="0.1905" layer="51"/>
 <rectangle x1="17.4625" y1="-0.1905" x2="18.0975" y2="0.1905" layer="51"/>
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="1X08" urn="urn:adsk.eagle:package:38138/1" type="box" library_version="1">
+<description>Plated Through Hole -8 Pin
+Specifications:
+Pin count:8
+Pin pitch:0.1"
+
+Example device(s):
+CONN_08
+</description>
+<packageinstances>
+<packageinstance name="1X08"/>
+</packageinstances>
+</package3d>
+<package3d name="1X08_LOCK" urn="urn:adsk.eagle:package:38137/1" type="box" library_version="1">
+<description>Plated Through Hole -8 Pin Locking Footprint
+Holes are offset 0.005", to hold pins in place during soldering. 
+Specifications:
+Pin count:8
+Pin pitch:0.1"
+
+Example device(s):
+CONN_08
+</description>
+<packageinstances>
+<packageinstance name="1X08_LOCK"/>
+</packageinstances>
+</package3d>
+<package3d name="1X08_LOCK_LONGPADS" urn="urn:adsk.eagle:package:38140/1" type="box" library_version="1">
+<description>Plated Through Hole -8 Pin Locking Footprint with Long Pads
+Holes are offset 0.005", to hold pins in place during soldering. 
+Specifications:
+Pin count:8
+Pin pitch:0.1"
+
+Example device(s):
+CONN_08
+</description>
+<packageinstances>
+<packageinstance name="1X08_LOCK_LONGPADS"/>
+</packageinstances>
+</package3d>
+<package3d name="1X08_LONGPADS" urn="urn:adsk.eagle:package:38142/1" type="box" library_version="1">
+<description>Plated Through Hole -8 Pin Long Pads
+Specifications:
+Pin count:8
+Pin pitch:0.1"
+
+Example device(s):
+CONN_08
+</description>
+<packageinstances>
+<packageinstance name="1X08_LONGPADS"/>
+</packageinstances>
+</package3d>
+<package3d name="SCREWTERMINAL-3.5MM-8" urn="urn:adsk.eagle:package:38143/1" type="box" library_version="1">
+<description>Screw Terminal  3.5mm Pitch -8 Pin PTH
+Specifications:
+Pin count: 8
+Pin pitch: 3.5mm/138mil
+
+Datasheet referenced for footprint
+Example device(s):
+CONN_08
+</description>
+<packageinstances>
+<packageinstance name="SCREWTERMINAL-3.5MM-8"/>
+</packageinstances>
+</package3d>
+<package3d name="1X08_SMD" urn="urn:adsk.eagle:package:38144/1" type="box" library_version="1">
+<description>SMD -8 Pin Vertical Female
+Specifications:
+Pin count:8
+Pin pitch:0.1"
+
+Datasheet referenced for footprint
+Example device(s):
+CONN_08
+</description>
+<packageinstances>
+<packageinstance name="1X08_SMD"/>
+</packageinstances>
+</package3d>
+<package3d name="1X08_SMD_ALT" urn="urn:adsk.eagle:package:38148/1" type="box" library_version="1">
+<description>SMD -8 Pin Vertical Female
+Alternate pin configuration
+Specifications:
+Pin count:8
+Pin pitch:0.1"
+
+Datasheet referenced for footprint
+Example device(s):
+CONN_08
+</description>
+<packageinstances>
+<packageinstance name="1X08_SMD_ALT"/>
+</packageinstances>
+</package3d>
+<package3d name="1X08_SMD_COMBINED" urn="urn:adsk.eagle:package:38146/1" type="box" library_version="1">
+<description>SMD -8 Pin Vertical Female
+Combined footprint configuration
+Specifications:
+Pin count:8
+Pin pitch:0.1"
+
+Datasheet referenced for footprint
+Example device(s):
+CONN_08
+</description>
+<packageinstances>
+<packageinstance name="1X08_SMD_COMBINED"/>
+</packageinstances>
+</package3d>
+<package3d name="BM08B-SRSS-TB" urn="urn:adsk.eagle:package:38145/1" type="box" library_version="1">
+<description>JST Vertical Crimp Connect
+Specifications:
+Pin count: 8
+Pin pitch:1mm
+
+Datasheet referenced for footprint
+Example device(s):
+CONN_08
+</description>
+<packageinstances>
+<packageinstance name="BM08B-SRSS-TB"/>
+</packageinstances>
+</package3d>
+<package3d name="1X08_SMD_MALE" urn="urn:adsk.eagle:package:38150/1" type="box" library_version="1">
+<description>SMD -8 Pin Vertical Male
+Specifications:
+Pin count:8
+Pin pitch:0.1"
+
+Datasheet referenced for footprint
+Example device(s):
+CONN_08
+</description>
+<packageinstances>
+<packageinstance name="1X08_SMD_MALE"/>
+</packageinstances>
+</package3d>
+<package3d name="1X08_NO_SILK" urn="urn:adsk.eagle:package:38149/1" type="box" library_version="1">
+<description>Plated Through Hole -8 Pin No Silk
+Specifications:
+Pin count:8
+Pin pitch:0.1"
+
+Example device(s):
+CONN_08
+</description>
+<packageinstances>
+<packageinstance name="1X08_NO_SILK"/>
+</packageinstances>
+</package3d>
+<package3d name="1X08_LOCK_NO_SILK" urn="urn:adsk.eagle:package:38147/1" type="box" library_version="1">
+<description>Plated Through Hole -8 Pin Locking Footprint No Silk
+Holes are offset 0.005", to hold pins in place during soldering. 
+Specifications:
+Pin count:8
+Pin pitch:0.1"
+
+Example device(s):
+CONN_08
+</description>
+<packageinstances>
+<packageinstance name="1X08_LOCK_NO_SILK"/>
+</packageinstances>
+</package3d>
+<package3d name="1X08_FEMALE_LOCK" urn="urn:adsk.eagle:package:38151/1" type="box" library_version="1">
+<description>Plated Through Hole -8 Pin Locking Female Headers
+Holes are offset 0.005" to hold pins in place during soldering. 
+Specifications:
+Pin count:8
+Pin pitch:0.1"
+
+Datasheet referenced for footprint
+Example device(s):
+CONN_08
+</description>
+<packageinstances>
+<packageinstance name="1X08_FEMALE_LOCK"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="CONN_08">
+<symbol name="CONN_08" urn="urn:adsk.eagle:symbol:37759/1" library_version="1">
 <description>&lt;h3&gt; 8 Pin Connection&lt;/h3&gt;</description>
 <wire x1="1.27" y1="-10.16" x2="-5.08" y2="-10.16" width="0.4064" layer="94"/>
 <wire x1="-1.27" y1="-2.54" x2="0" y2="-2.54" width="0.6096" layer="94"/>
@@ -4941,7 +5211,7 @@ Holes are offset 0.005" to hold pins in place during soldering.
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CONN_08" prefix="J" uservalue="yes">
+<deviceset name="CONN_08" urn="urn:adsk.eagle:component:38333/1" prefix="J" uservalue="yes" library_version="1">
 <description>&lt;h3&gt;Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections&lt;/h3&gt;
 
 &lt;p&gt;&lt;/p&gt;
@@ -4991,6 +5261,9 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38138/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="CONN-08438"/>
@@ -5008,6 +5281,9 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38137/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -5023,6 +5299,9 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38140/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -5038,6 +5317,9 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38142/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -5053,6 +5335,9 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38143/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -5068,6 +5353,9 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38144/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="CONN-10204"/>
@@ -5086,6 +5374,9 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38148/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="CONN-10204"/>
@@ -5104,6 +5395,9 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38146/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="CONN-10204"/>
@@ -5122,6 +5416,9 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38145/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="CONN-10556" constant="no"/>
@@ -5139,6 +5436,9 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38150/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="CONN-11292"/>
@@ -5157,6 +5457,9 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38149/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="CONN-08438"/>
@@ -5174,6 +5477,9 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38147/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -5189,6 +5495,9 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38151/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="CONN-09233" constant="no"/>
@@ -8635,7 +8944,7 @@ www.semiconductors.com;&lt;br&gt;
 www.irf.com&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="SOT23" urn="urn:adsk.eagle:footprint:29641/1" library_version="1">
+<package name="SOT23" urn="urn:adsk.eagle:footprint:28669/1" library_version="3">
 <description>&lt;b&gt;SOT-23&lt;/b&gt;</description>
 <wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
 <wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
@@ -8652,7 +8961,7 @@ www.irf.com&lt;p&gt;
 </package>
 </packages>
 <packages3d>
-<package3d name="SOT23" urn="urn:adsk.eagle:package:29752/1" type="box" library_version="1">
+<package3d name="SOT23" urn="urn:adsk.eagle:package:28738/2" type="model" library_version="3">
 <description>SOT-23</description>
 <packageinstances>
 <packageinstance name="SOT23"/>
@@ -8702,7 +9011,7 @@ www.irf.com&lt;p&gt;
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BSS84" urn="urn:adsk.eagle:component:29809/1" prefix="Q" library_version="1">
+<deviceset name="BSS84" urn="urn:adsk.eagle:component:29809/3" prefix="Q" library_version="3">
 <description>&lt;b&gt;P-CHANNEL MOS FET&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="P-MOS" x="0" y="0"/>
@@ -8715,7 +9024,7 @@ www.irf.com&lt;p&gt;
 <connect gate="G$1" pin="S" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:29752/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:28738/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -23654,8 +23963,8 @@ Created by Upverter.com</description>
 <smd name="14" x="-0.975" y="2.8" dx="0.3" dy="1.6" layer="1"/>
 <smd name="15" x="-1.625" y="2.8" dx="0.3" dy="1.6" layer="1"/>
 <smd name="16" x="-2.275" y="2.8" dx="0.3" dy="1.6" layer="1"/>
-<smd name="SMD_33" x="0" y="0" dx="5.08" dy="3.4" layer="16"/>
-<smd name="17" x="0.635" y="0" dx="6.35" dy="3.4" layer="1"/>
+<smd name="SMD_33" x="0" y="0" dx="5.08" dy="3.4" layer="16" thermals="no"/>
+<smd name="17" x="0.635" y="0" dx="6.35" dy="3.4" layer="1" thermals="no"/>
 </package>
 </packages>
 <symbols>
@@ -23962,9 +24271,9 @@ Tyco Electronics</description>
 </class>
 </classes>
 <parts>
-<part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
-<part name="FRAME2" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
-<part name="J1" library="SparkFun-Connectors" deviceset="CONN_08" device="&quot;"/>
+<part name="LOGO1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="OSHW-LOGO" device="S" package3d_urn="urn:adsk.eagle:package:37099/1"/>
+<part name="FRAME2" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-A4L" device=""/>
+<part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_08" device="&quot;" package3d_urn="urn:adsk.eagle:package:38138/1"/>
 <part name="U$1" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$21" library="microbuilder" deviceset="GND" device=""/>
 <part name="IC1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="MCP73833" device="-UN" package3d_urn="urn:adsk.eagle:package:6240634/1"/>
@@ -24001,7 +24310,7 @@ Tyco Electronics</description>
 <part name="C3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
 <part name="C5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2uF"/>
 <part name="C6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="CPOL-EU" device="CT3528" package3d_urn="urn:adsk.eagle:package:23325/2" value="220uF"/>
-<part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="PWR_ON"/>
+<part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="ON"/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R11" library="resistor" deviceset="R-EU_" device="R0603" value="470"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -24016,8 +24325,8 @@ Tyco Electronics</description>
 <attribute name="SPICEPREFIX" value="D"/>
 </part>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="Q2" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BSS84" device="" package3d_urn="urn:adsk.eagle:package:29752/1"/>
-<part name="Q1" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BSS84" device="" package3d_urn="urn:adsk.eagle:package:29752/1"/>
+<part name="Q2" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BSS84" device="" package3d_urn="urn:adsk.eagle:package:28738/2"/>
+<part name="Q1" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BSS84" device="" package3d_urn="urn:adsk.eagle:package:28738/2"/>
 <part name="J2" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="1981584-1" device="" package3d_urn="urn:adsk.eagle:package:970926/2" value="USB"/>
 <part name="J3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="JST_2PIN" device="-THM" package3d_urn="urn:adsk.eagle:package:6240693/1"/>
 </parts>
