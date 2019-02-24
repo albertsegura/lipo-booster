@@ -24258,6 +24258,100 @@ Tyco Electronics</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="transistor-pnp" urn="urn:adsk.eagle:library:399">
+<description>&lt;b&gt;PNP Transistors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SC59-BEC" urn="urn:adsk.eagle:footprint:28691/1" library_version="4">
+<description>SC59 (SOT23) Motorola</description>
+<wire x1="1.4224" y1="0.8604" x2="1.4224" y2="-0.8604" width="0.127" layer="51"/>
+<wire x1="1.4224" y1="-0.8604" x2="-1.4224" y2="-0.8604" width="0.127" layer="51"/>
+<wire x1="-1.4224" y1="-0.8604" x2="-1.4224" y2="0.8604" width="0.127" layer="51"/>
+<wire x1="-1.4224" y1="0.8604" x2="1.4224" y2="0.8604" width="0.127" layer="51"/>
+<smd name="C" x="0" y="1.2" dx="1" dy="1.4" layer="1"/>
+<smd name="E" x="0.95" y="-1.2" dx="1" dy="1.4" layer="1"/>
+<smd name="B" x="-0.95" y="-1.2" dx="1" dy="1.4" layer="1"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.2286" y1="0.9112" x2="0.2286" y2="1.4954" layer="51"/>
+<rectangle x1="0.7112" y1="-1.4954" x2="1.1684" y2="-0.9112" layer="51"/>
+<rectangle x1="-1.1684" y1="-1.4954" x2="-0.7112" y2="-0.9112" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="SC59-BEC" urn="urn:adsk.eagle:package:28754/2" type="model" library_version="4">
+<description>SC59 (SOT23) Motorola</description>
+<packageinstances>
+<packageinstance name="SC59-BEC"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="PNP-DRIVER" urn="urn:adsk.eagle:symbol:29188/1" library_version="4">
+<wire x1="-5.08" y1="0" x2="-4.826" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="-4.826" y1="0.762" x2="-4.572" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="-4.572" y1="-0.508" x2="-4.318" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="-4.318" y1="0.762" x2="-4.064" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="-4.064" y1="-0.508" x2="-3.81" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="0.762" x2="-3.556" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="-3.556" y1="-0.508" x2="-3.302" y2="0" width="0.1524" layer="94"/>
+<wire x1="-3.302" y1="0" x2="-2.286" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.286" y1="0" x2="-0.254" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.286" y1="0" x2="-2.286" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="-2.286" y1="0.762" x2="-2.794" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-2.794" y1="1.016" x2="-1.778" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-1.778" y1="1.27" x2="-2.794" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="-2.794" y1="1.524" x2="-1.778" y2="1.778" width="0.1524" layer="94"/>
+<wire x1="-1.778" y1="1.778" x2="-2.794" y2="2.032" width="0.1524" layer="94"/>
+<wire x1="-2.794" y1="2.032" x2="-1.778" y2="2.286" width="0.1524" layer="94"/>
+<wire x1="-1.778" y1="2.286" x2="-2.286" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.286" y1="2.54" x2="-2.286" y2="3.556" width="0.1524" layer="94"/>
+<wire x1="-2.286" y1="3.556" x2="2.54" y2="3.556" width="0.1524" layer="94"/>
+<wire x1="2.0861" y1="1.6779" x2="1.5781" y2="2.5941" width="0.1524" layer="94"/>
+<wire x1="1.5781" y1="2.5941" x2="0.5159" y2="1.478" width="0.1524" layer="94"/>
+<wire x1="0.5159" y1="1.478" x2="2.0861" y2="1.6779" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="1.808" y2="2.1239" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0.508" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="1.778" x2="1.524" y2="2.413" width="0.254" layer="94"/>
+<wire x1="1.524" y1="2.413" x2="0.762" y2="1.651" width="0.254" layer="94"/>
+<wire x1="0.762" y1="1.651" x2="1.778" y2="1.778" width="0.254" layer="94"/>
+<wire x1="1.778" y1="1.778" x2="1.524" y2="2.159" width="0.254" layer="94"/>
+<wire x1="1.524" y1="2.159" x2="1.143" y2="1.905" width="0.254" layer="94"/>
+<wire x1="1.143" y1="1.905" x2="1.524" y2="1.905" width="0.254" layer="94"/>
+<circle x="-2.286" y="0" radius="0.254" width="0.3048" layer="94"/>
+<circle x="2.54" y="3.556" radius="0.254" width="0.3048" layer="94"/>
+<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
+<pin name="B" x="-7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="C" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
+<pin name="E" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MUN2114*" urn="urn:adsk.eagle:component:29355/3" prefix="Q" library_version="4">
+<description>&lt;b&gt;PNP Bias Resistor Transistor&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="PNP-DRIVER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SC59-BEC">
+<connects>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="E" pad="E"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:28754/2"/>
+</package3dinstances>
+<technologies>
+<technology name="T1"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -24326,9 +24420,9 @@ Tyco Electronics</description>
 </part>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="Q2" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BSS84" device="" package3d_urn="urn:adsk.eagle:package:28738/2"/>
-<part name="Q1" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BSS84" device="" package3d_urn="urn:adsk.eagle:package:28738/2"/>
 <part name="J2" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="1981584-1" device="" package3d_urn="urn:adsk.eagle:package:970926/2" value="USB"/>
 <part name="J3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="JST_2PIN" device="-THM" package3d_urn="urn:adsk.eagle:package:6240693/1"/>
+<part name="Q3" library="transistor-pnp" library_urn="urn:adsk.eagle:library:399" deviceset="MUN2114*" device="" package3d_urn="urn:adsk.eagle:package:28754/2" technology="T1" value="MMUN2133LT1G"/>
 </parts>
 <sheets>
 <sheet>
@@ -24480,19 +24574,19 @@ Tyco Electronics</description>
 <attribute name="NAME" x="178.943" y="46.2026" size="1.778" layer="95"/>
 <attribute name="VALUE" x="178.943" y="41.1226" size="1.778" layer="96"/>
 </instance>
-<instance part="LED4" gate="G$1" x="218.44" y="38.1" smashed="yes">
-<attribute name="NAME" x="214.376" y="33.528" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="221.615" y="30.988" size="1.778" layer="96" rot="R90"/>
+<instance part="LED4" gate="G$1" x="223.52" y="38.1" smashed="yes">
+<attribute name="NAME" x="219.456" y="33.528" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="226.695" y="30.988" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND14" gate="1" x="218.44" y="25.4" smashed="yes">
-<attribute name="VALUE" x="215.9" y="22.86" size="1.778" layer="96"/>
+<instance part="GND14" gate="1" x="223.52" y="25.4" smashed="yes">
+<attribute name="VALUE" x="220.98" y="22.86" size="1.778" layer="96"/>
 </instance>
-<instance part="R11" gate="G$1" x="218.44" y="53.34" smashed="yes" rot="R90">
-<attribute name="NAME" x="216.9414" y="49.53" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="221.742" y="49.53" size="1.778" layer="96" rot="R90"/>
+<instance part="R11" gate="G$1" x="223.52" y="53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="222.0214" y="49.53" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="226.822" y="49.53" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="P+2" gate="1" x="218.44" y="66.04" smashed="yes">
-<attribute name="VALUE" x="215.9" y="60.96" size="1.778" layer="96" rot="R90"/>
+<instance part="P+2" gate="1" x="223.52" y="66.04" smashed="yes">
+<attribute name="VALUE" x="220.98" y="60.96" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="LED3" gate="G$1" x="195.58" y="33.02" smashed="yes">
 <attribute name="NAME" x="191.516" y="28.448" size="1.778" layer="95" rot="R90"/>
@@ -24530,10 +24624,6 @@ Tyco Electronics</description>
 <attribute name="NAME" x="226.06" y="139.7" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="231.14" y="139.7" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="Q1" gate="G$1" x="195.58" y="53.34" smashed="yes">
-<attribute name="NAME" x="198.12" y="53.34" size="1.778" layer="95"/>
-<attribute name="VALUE" x="198.12" y="50.8" size="1.778" layer="96"/>
-</instance>
 <instance part="J2" gate="G$1" x="20.32" y="121.92" smashed="yes" rot="MR0">
 <attribute name="NAME" x="25.4" y="130.81" size="2.54" layer="95" font="vector" ratio="12" rot="MR0"/>
 <attribute name="VALUE" x="20.32" y="111.76" size="1.778" layer="96" font="vector" ratio="10" rot="MR0"/>
@@ -24541,6 +24631,10 @@ Tyco Electronics</description>
 <instance part="J3" gate="G$1" x="15.24" y="99.06" smashed="yes" rot="MR0">
 <attribute name="NAME" x="21.59" y="104.775" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="21.59" y="93.98" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="Q3" gate="G$1" x="193.04" y="53.34" smashed="yes">
+<attribute name="NAME" x="198.12" y="55.88" size="1.778" layer="95"/>
+<attribute name="VALUE" x="198.12" y="53.34" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -24640,7 +24734,7 @@ Tyco Electronics</description>
 <segment>
 <pinref part="GND14" gate="1" pin="GND"/>
 <pinref part="LED4" gate="G$1" pin="C"/>
-<wire x1="218.44" y1="27.94" x2="218.44" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="27.94" x2="223.52" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND15" gate="1" pin="GND"/>
@@ -24695,12 +24789,12 @@ Tyco Electronics</description>
 <junction x="177.8" y="60.96"/>
 <wire x1="195.58" y1="58.42" x2="195.58" y2="60.96" width="0.1524" layer="91"/>
 <junction x="195.58" y="60.96"/>
-<pinref part="Q1" gate="G$1" pin="S"/>
+<pinref part="Q3" gate="G$1" pin="E"/>
 </segment>
 <segment>
 <pinref part="P+2" gate="1" pin="+5V"/>
 <pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="218.44" y1="63.5" x2="218.44" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="63.5" x2="223.52" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="35.56" y1="157.48" x2="35.56" y2="160.02" width="0.1524" layer="91"/>
@@ -24721,7 +24815,7 @@ Tyco Electronics</description>
 <wire x1="195.58" y1="45.72" x2="203.2" y2="45.72" width="0.1524" layer="91"/>
 <junction x="195.58" y="45.72"/>
 <label x="198.12" y="45.72" size="1.778" layer="95"/>
-<pinref part="Q1" gate="G$1" pin="D"/>
+<pinref part="Q3" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="PWR_EN" class="0">
@@ -24885,10 +24979,9 @@ Tyco Electronics</description>
 <pinref part="U1" gate="G$0" pin="LBO"/>
 <wire x1="142.24" y1="45.72" x2="149.86" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="45.72" x2="149.86" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="38.1" x2="187.96" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="38.1" x2="187.96" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="55.88" x2="190.5" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="G$1" pin="G"/>
+<wire x1="149.86" y1="38.1" x2="185.42" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="38.1" x2="185.42" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="Q3" gate="G$1" pin="B"/>
 </segment>
 </net>
 <net name="N$33" class="0">
@@ -24904,7 +24997,7 @@ Tyco Electronics</description>
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
 <pinref part="LED4" gate="G$1" pin="A"/>
-<wire x1="218.44" y1="48.26" x2="218.44" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="48.26" x2="223.52" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -24965,8 +25058,8 @@ Tyco Electronics</description>
 <approved hash="206,1,154.94,137.16,VBAT,,,,,"/>
 <approved hash="206,1,154.94,139.7,VBAT,,,,,"/>
 <approved hash="108,1,27.94,116.84,GND,,,,,"/>
-<approved hash="113,1,19.6427,149.897,J1,,,,,"/>
-<approved hash="113,1,17.5429,101.796,J3,,,,,"/>
+<approved hash="113,1,19.6427,149.928,J1,,,,,"/>
+<approved hash="113,1,17.5429,101.826,J3,,,,,"/>
 </errors>
 </schematic>
 </drawing>
